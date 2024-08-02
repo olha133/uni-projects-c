@@ -126,11 +126,11 @@ bool check(const int rows,
 void game_field(const int rows,
     const int columns, char field[rows][columns]) {
 
-    printf("\n    (_ _)"); // рысую верх колбочек
+    printf("\n    (_ _)");
     for (int i = 1; i < columns; i++) {
         printf("    (_ _)");
     }
-    for (int i = 0; i < rows; i++) { // рісую по рядку! стікло колбочек
+    for (int i = 0; i < rows; i++) {
         printf("\n %d", i + 1);
 
         for (int j = 0; j < columns; j++) {
